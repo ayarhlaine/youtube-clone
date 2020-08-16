@@ -28,8 +28,8 @@ function DrawerComponent() {
     }
     return (
         <Drawer anchor={'left'} open={isOpenedSideBar} onClose={onDrawerClose} className="drawer">
+            <DrawerHeader />
             <div className="drawer__Container">
-                <DrawerHeader />
                 <DrawerMenu title="Home" Icon={HomeIcon} selected/>
                 <DrawerMenu title="Trending" Icon={WhatshotIcon}/>
                 <DrawerMenu title="SubScription" Icon={SubscriptionsIcon}/>

@@ -1,10 +1,14 @@
 .drawer {
     .drawer__Container{
         min-width: 15rem;
+        overflow-y: scroll;
     }
     hr{
         border: none;
         height: 1px;
         background: lightgray;
     }
+}
+.MuiDrawer-paper{
+    overflow: hidden;
 }
