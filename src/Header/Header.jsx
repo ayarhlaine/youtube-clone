@@ -1,4 +1,5 @@
 import React from 'react';
+import Hidden from '@material-ui/core/Hidden';
 import SearchIcon from '@material-ui/icons/Search';
 import VideoCallIcon from '@material-ui/icons/VideoCall';
 import AppsIcon from '@material-ui/icons/Apps';
@@ -11,10 +12,12 @@ function Header() {
             <div className="headerLeft">
                 <img src={`${process.env.PUBLIC_URL}/images/youtube-logo.png`} alt="Youtube Logo"/>
             </div>
-            <div className="headerSearch">
-                <input placeholder="Search" type="text" name="search" id="search"/>
-                <SearchIcon />
-            </div>
+            <Hidden smDown>
+                <div className="headerSearch">
+                    <input placeholder="Search" type="text" name="search" id="search"/>
+                    <SearchIcon />
+                </div>
+            </Hidden>
             <div className="headerIcons">
                 <VideoCallIcon />
                 <AppsIcon />
