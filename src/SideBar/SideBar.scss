@@ -1,0 +1,9 @@
+.sidebar{
+    flex: 0.05;
+    .sidebar__MenuContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 20px;
+    }
+}

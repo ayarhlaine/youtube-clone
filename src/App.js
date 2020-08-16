@@ -1,15 +1,14 @@
 import React from 'react';
 import './App.scss';
-import Header from './Header/Header';
+import SideBar from './SideBar/SideBar';
+import AppBody from './AppBody/AppBody';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      {/* Sub Header */}
-      <div className="app">
-        {/* SideBar */}
-        {/* Videos */}
+      <div className="app_page">
+        <SideBar />
+        <AppBody />
       </div>
     </div>
   );

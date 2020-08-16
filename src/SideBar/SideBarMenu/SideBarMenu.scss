@@ -1,0 +1,36 @@
+.sideBarMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 5px;
+    margin-bottom: 10px;
+    .MuiSvgIcon-root{
+        color: gray;
+        margin-bottom: 0.7rem;
+    }
+    h2 {
+        font-size: 10px;
+        color: gray;
+    }
+}
+.sideBarMenu:hover {
+    background-color: #f8f8f8;
+    cursor: pointer;
+    .MuiSvgIcon-root{
+        color: red;
+    }
+    h2{
+        color: red;
+        font-weight: 500;
+    }
+}
+.sideBarMenu.selected {
+    background-color: #f8f8f8;
+    .MuiSvgIcon-root{
+        color: red;
+    }
+    h2{
+        color: red;
+        font-weight: 500;
+    }
+}
