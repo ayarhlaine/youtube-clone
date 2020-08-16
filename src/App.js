@@ -1,16 +1,14 @@
 import React from 'react';
 import './App.scss';
-import SideBar from './SideBar/SideBar';
 import AppBody from './AppBody/AppBody';
 import Drawer from './Drawer/Drawer';
+import Header from './Header/Header';
 
 function App() {
   return (
     <div className="App">
-      <div className="app_page">
-        <SideBar />
-        <AppBody />
-      </div>
+      <Header />
+      <AppBody />
       <Drawer />
     </div>
   );

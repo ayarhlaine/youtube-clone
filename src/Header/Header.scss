@@ -10,9 +10,14 @@
     z-index: 100;
     background: white;
     border-bottom: 1px solid lightgray;
-    .headerLeft{
+    .headerLeft {
         display: flex;
         align-items: center;
+        .header__MenuIcon{
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+        }
         img {
             height: 1.2rem;
             object-fit: contain;

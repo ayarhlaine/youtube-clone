@@ -3,7 +3,7 @@ import './RecomdandedVideo.scss';
 function RecomdandedVideo() {
     return (
         <div className="recomdandedVideo">
-            Recomdanded
+            <h2>Recomdanded</h2>
         </div>
     )
 }

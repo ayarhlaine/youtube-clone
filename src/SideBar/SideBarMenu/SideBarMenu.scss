@@ -14,7 +14,7 @@
     }
 }
 .sideBarMenu:hover {
-    background-color: #f8f8f8;
+    background-color: lightgray;
     cursor: pointer;
     .MuiSvgIcon-root{
         color: red;
@@ -25,7 +25,7 @@
     }
 }
 .sideBarMenu.selected {
-    background-color: #f8f8f8;
+    background-color: lightgray;
     .MuiSvgIcon-root{
         color: red;
     }
