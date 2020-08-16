@@ -1,11 +1,16 @@
 import React from 'react';
 import './App.scss';
+import Header from './Header/Header';
 
 function App() {
   return (
     <div className="App">
-      <h1>Youtube Clone App</h1>
-      <p>Comming Soon ...</p>
+      <Header />
+      {/* Sub Header */}
+      <div className="app">
+        {/* SideBar */}
+        {/* Videos */}
+      </div>
     </div>
   );
 }
