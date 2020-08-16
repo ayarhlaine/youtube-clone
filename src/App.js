@@ -2,6 +2,7 @@ import React from 'react';
 import './App.scss';
 import SideBar from './SideBar/SideBar';
 import AppBody from './AppBody/AppBody';
+import Drawer from './Drawer/Drawer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <SideBar />
         <AppBody />
       </div>
+      <Drawer />
     </div>
   );
 }
