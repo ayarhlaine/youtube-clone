@@ -1,5 +1,5 @@
 export const initialState = {
-    isOpenedSideBar: true,
+    isOpenedSideBar: false,
 };
 export const actionTypes = {
     UPDATE_SIDEBAR: "UPDATE_SIDEBAR",

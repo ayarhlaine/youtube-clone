@@ -1,0 +1,10 @@
+.recommendVideo{
+    flex: 0.95;
+    background: #f9f9f9;
+    padding: 1rem;
+    .recommendVideo__Lists{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1rem 0;
+    }
+}

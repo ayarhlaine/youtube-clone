@@ -1,12 +1,12 @@
 import React from 'react'
 import './AppBody.scss';
 import SideBar from '../SideBar/SideBar';
-import RecomdandedVideo from '../RecomdandedVideo/RecomdandedVideo';
+import RecommendVideo from '../RecommendVideo/RecommendVideo';
 function AppBody() {
     return (
         <div className="appBody">
             <SideBar />
-            <RecomdandedVideo />
+            <RecommendVideo />
         </div>
     )
 }

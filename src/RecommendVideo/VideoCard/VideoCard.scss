@@ -1,0 +1,26 @@
+.videoCard{
+    display: flex;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    flex-direction: column;
+    text-decoration: none;
+    width: 270px;
+    .videoCard__thumbnail {
+        width: 270px;
+        height: 160px;
+        object-fit: contain;
+    }
+    .videoCard__info{
+        display: flex;
+        padding: 0.1rem;
+        .videoCard__text{
+            padding: 0.2rem;
+            h3 {
+                font-size: 1rem;
+            }
+            p{
+                color: gray;
+            }
+        }
+    }
+}
