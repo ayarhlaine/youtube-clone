@@ -1,6 +1,10 @@
 .drawer {
-    .Drawer__Lists{
-        flex: 0.2;
-        background-color: red;
+    .drawer__Container{
+        min-width: 300px;
+    }
+    hr{
+        border: none;
+        height: 1px;
+        background: lightgray;
     }
 }
